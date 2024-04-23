@@ -78,7 +78,7 @@
 
 // primitives 7types : String ,Number, Boolean, null, Undefined, Symol(unique) , BigInt (scientific val)
 
- const bigNumber= 52256256265245662454563n // put n to make it bigInt
+// const bigNumber= 52256256265245662454563n // put n to make it bigInt
 // Reference / Non primitive
 // arrays , objects , Functions
 
@@ -108,10 +108,39 @@
 // console.log(`my name is ${name} and my repo count is ${repo}`);
 
 // string methods
-const name = "     harjot   "
-console.log(name.trim())
-console.log(name.slice(-2,4))
-// replace this is a good one 
+// const name = "     harjot   "
+// console.log(name.trim())
+// console.log(name.slice(-2,4))
+// replace this is a good one
+
+// const url ="www.githarjot%20se.com"
+// const name2 ="harjot singh"
+// url.replace("se", "SE")
+// url.includes(("SEtrue"))
+// const result=name2.split(' ') // to get a string in  array format based on spaces or anything mentioned
+// console.log(result)
+
+
+// maths and number
+// const score =400
+// // can also write like this to make sure that it is a number only
+// const newScore= new Number(504)
+// console.log(newScore)
+// console.log(score)
+// console.log(newScore.toFixed(5));
+// console.log(newScore.toString().length);
+const othernumber=123.5643
+console.log(othernumber.toPrecision(5)) // can give round off if req else no of dig that are req
+
+const num6=1000000
+console.log(num6.toLocaleString('en-IN'))
+
+
+
+
+
+
+
 
 
 
